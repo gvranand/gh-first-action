@@ -10,7 +10,7 @@ jobs:
       - name: Print GoodBye as Second output
         run: echo "Second output"
         
-    second-job:
+    secrets:
       runs-on: ubuntu-latest
       steps:
         - name: Print Secrets
