@@ -5,8 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greetings
-        run: echo "Hello World!"
-      - name: Print GoodBye
-        run: echo "Done - Bye!"
+        run: 
+          echo "Hello World!" 
+          echo "This is my first workflow"
+      - name: Print Exit Statement
+        run: echo "Done - Bye! End of Workflow!!"
         
     
