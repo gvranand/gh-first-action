@@ -1,0 +1,20 @@
+
+name: Second Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greetings as First output
+        run: echo "First Output"
+      - name: Print GoodBye as Second output
+        run: echo "Second output"
+        
+    second-job:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Print Secrets
+          run: echo "Printing Secrets Anonymously"
+          
+          
+        
